@@ -1,0 +1,41 @@
+body{
+	background-color: white;
+	margin:0;
+	
+}
+
+img {
+	height: 30vmin;
+	padding: 1vmin;
+}
+
+.grid{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#feature{
+	height: 61vmin;
+}
+
+#vertical{
+	height: 59.5vmin;
+}
+
+#side{
+	height: 40.5vmin;
+}
+
+#sidethin{
+	height: 42vmin;
+}
+
+#verticalthin{
+	height: 67.5vmin;
+}
+
+#square{
+	height: 92vmin;
+}
