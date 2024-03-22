@@ -1,9 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap')
+*{
+	padding: 0;
+	margin: 0;
+}
 body{
-	background-color: white;
+	background-color: #EEECE6;
 	margin:0;
+	font-family: "Nuosu SIL", serif;
+	color: #EEECE6;
 	
 }
 
+.background{
+	background-image: url("concertsbackground.png");
+	background-color: black;
+}
 img {
 	height: 30vmin;
 	padding: 1vmin;
@@ -38,4 +49,81 @@ img {
 
 #square{
 	height: 92vmin;
+}
+
+#three{
+	height: 44vmin;
+}
+
+.sidenav{
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+  padding: 0;
+  width: 40vmin;
+  background-color:#0D0907;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.arrange{
+	display: flex;
+	flex-direction: row;
+
+}
+
+.col{
+	display: flex;
+	flex-direction: column;
+	padding-left: 36vw;	
+}
+
+a{
+	color: #888888;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+a:hover{
+	color: #F9F6EE;
+}
+
+
+h3{
+	line-height: 0px;
+	font-size: 1.2em;
+
+}
+
+.text{
+	display: flex;
+	flex-direction: column;
+	padding-left: 3vw;
+	padding-top: 2vw;
+}
+
+h1{
+	font-size: 2.4em;
+}
+
+h2{
+	color: #202020;
+	text-align: center;
+	padding-top: 7vmin;
+	font-size: 2em;
+	margin-bottom: 1vmin;
+}
+p{
+	color: #202020;
+	text-align: center;
+	font-size: 1.22em;
+}
+small{
+	padding-top: 1.5vmin;
+	color: #888888;
+}
+
+.fcolor{
+	color: #FAF0E6;
 }
