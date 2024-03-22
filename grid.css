@@ -1,6 +1,7 @@
 @font-face {
   font-family: concertfont;
-  src: url("Sentient-Variable.ttf");
+  src: url('Sentient-Variable.woff') format('woff'),
+  		url('Sentient-Variable.ttf') format('truetype');
 }
 *{
 	padding: 0;
