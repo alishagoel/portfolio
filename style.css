@@ -1,0 +1,41 @@
+@font-face {
+  font-family: concertfont;
+  src: url(Sentient-Variable.ttf);
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-family: Sentient-Variable;
+}
+
+img{
+	padding: 2vmin;
+}
+.threeimg{
+	width: 27vw;
+}
+
+.twoimg{
+	width: 37vw;
+}
+
+h1{
+	padding-top: 6vmin;
+}
+
+.rows{
+	display: flex;
+	justify-content: center;
+
+}
+
+.col{
+	display: flex;
+	flex-direction: column;
+}
