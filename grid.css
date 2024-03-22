@@ -1,8 +1,5 @@
-@font-face {
-  font-family: concertfont;
-  src: url('Sentient-Variable.woff') format('woff'),
-  		url('Sentient-Variable.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption:ital@0;1&display=swap')
+
 *{
 	padding: 0;
 	margin: 0;
@@ -10,7 +7,7 @@
 body{
 	background-color: #EEECE6;
 	margin:0;
-	font-family: Sentient-Variable;
+	font-family: "PT Serif Caption", serif;
 	color: #EEECE6;	
 }
 
@@ -95,7 +92,6 @@ a:hover{
 
 h3{
 	font-size: 1.3em;
-	line-height: 1.7em;
 }
 
 .text{
@@ -103,7 +99,6 @@ h3{
 	flex-direction: column;
 	padding-left: 3vw;
 	padding-top: 2vw;
-	line-height: 1.5em;
 }
 
 h1{
@@ -117,7 +112,7 @@ h2{
 	text-align: center;
 	padding-top: 10vmin;
 	font-size: 2em;
-	margin-bottom: 1vmin;
+	margin-bottom: 0.5vmin;
 }
 p{
 	color: #202020;
