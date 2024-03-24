@@ -134,3 +134,10 @@ small{
 	height: inherit;
 }
 
+.bottomtext{
+	text-align: right;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding-bottom: 1vmax;
+}
+
