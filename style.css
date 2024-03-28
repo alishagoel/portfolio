@@ -90,7 +90,7 @@ h2{
 	scroll-behavior: smooth;
 }
 
-.fade-in { animation: fadeIn 3s; }
+.fade-in { animation: fadeIn 2s; }
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
@@ -133,7 +133,7 @@ h2{
 }
 
 .gifsizearcade{
-	width:50vw;
+	width:45vw;
 }
 
 .gifsizephone{
@@ -171,7 +171,7 @@ h2{
 .scroller {
   height: 100vh;
   overflow-y: scroll;
-  scroll-snap-type: y proximity;
+  scroll-snap-type: y mandatory;
 }
 
 .scroller section {
@@ -199,5 +199,10 @@ span{
 span a{
 	color: white;
 
+}
+
+h3{
+	font-size: 2em;
+	padding: 0;
 }
 
