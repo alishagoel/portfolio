@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap')
 
 *{
 	margin: 0;
@@ -43,6 +44,18 @@ h2{
 	display: flex;
 	flex-direction: column;
 }
+.col2{
+	
+	display: flex;
+	text-align: left;
+	width: 70vw;
+
+}
+.col3{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
 
 .pdf{
   width: 100%;
@@ -50,22 +63,22 @@ h2{
 }
 
 .topNav{
-	padding: 3vmin;
+	padding-top: 2vmin;
 	padding-bottom: 4vmin;
+	text-align: right;
 
 }
 
 .topNav a{
-	color: #888888;
+	color: white;
 	text-decoration: none;
 	font-size: 1.3em;
-	padding-left: 2vmin;
 	padding-right: 2vmin;
 	cursor: pointer;
 }
 
 .topNav a:hover{
-	color: white;
+	text-decoration: underline;
 
 }
 
@@ -73,9 +86,118 @@ h2{
 	text-align: center;
 }
 
+.scroll{
+	scroll-behavior: smooth;
+}
+
+.fade-in { animation: fadeIn 3s; }
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.textprop{
+	font-family: "Exo 2", sans-serif;;
+	font-weight: 900;
+	font-size: 12em;
+	color: #C41E3A;
+}
 
 
+.titlescode{
+	font-family: "Exo 2", sans-serif;;
+	font-weight: 600;
+	font-size: 1.5em;
+	font-style: italic;
+	color: #C41E3A;
+}
 
+.title2{
+	color: yellow;
+}
 
+.title3{
+	color:#C4A484;
+}
 
+.side{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.gifsize{
+	width:40vw;
+	height: inherit;
+}
+
+.gifsizearcade{
+	width:50vw;
+}
+
+.gifsizephone{
+	width:25vw;
+}
+
+.resumebody{
+	overflow: hidden;
+}
+
+#container
+{
+      
+}
+
+.firstcontainer{
+	
+
+}
+.secondcontainer{
+	height:100vh;
+	background-color: #00008b;
+
+}
+
+.thirdcontainer{
+	background-color:#013A20;
+}
+
+.hideme
+{
+    opacity:0;
+}
+
+.scroller {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y proximity;
+}
+
+.scroller section {
+  scroll-snap-align: start;
+}
+
+.bodylib{
+	background-color: #56018D;
+
+}
+.leftpad{
+	padding-left: 5vw;
+	padding-right: 5vw;
+	padding-bottom: 3vw;
+}
+
+.leftpad p{
+	font-size: 1.3em;
+}
+
+span{
+	font-style: italic;
+}
+
+span a{
+	color: white;
+
+}
 

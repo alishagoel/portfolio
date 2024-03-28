@@ -83,16 +83,22 @@ a{
 	color: #888888;
 	text-decoration: none;
 	font-size: 1em;
+
+
 }
 
 a:hover{
-	color: #F9F6EE;
+	color: #EEECE6;
+
 }
 
 
 h3{
-	font-size: 1.3em;
-}
+	font-size: 1.2em;
+	color: #EEECE6;
+
+	}
+
 
 .text{
 	display: flex;
@@ -136,8 +142,18 @@ small{
 
 .bottomtext{
 	text-align: right;
-	font-weight: bold;
-	font-size: 1.2em;
+	font-size: 2em;
 	padding-bottom: 1vmax;
+	color: #EEECE6;
 }
 
+a:hover{
+	text-decoration: underline;
+}
+
+.caps{
+	
+	font-size: 1em;
+	line-height: 1em;
+	padding-bottom: 1em;
+}
