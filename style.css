@@ -11,6 +11,7 @@ body{
 	background-color: black;
 	color: white;
 	font-family: "Sorts Mill Goudy", serif;
+	overflow-x: hidden;
 }
 
 img{
@@ -18,10 +19,12 @@ img{
 }
 .threeimg{
 	width: 27vw;
+	height: inherit;
 }
 
 .twoimg{
 	width: 37vw;
+	height: inherit;
 }
 
 h1{
@@ -35,6 +38,11 @@ h2{
 }
 
 .rows{
+	display: flex;
+	justify-content: center;
+
+}
+.rowsabout{
 	display: flex;
 	justify-content: center;
 
@@ -151,6 +159,7 @@ h2{
 
 .firstcontainer{
 	
+	
 
 }
 .secondcontainer{
@@ -169,7 +178,7 @@ h2{
 }
 
 .scroller {
-  height: 100vh;
+	width: 100vw;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
@@ -206,3 +215,83 @@ h3{
 	padding: 0;
 }
 
+a{
+	color: white;
+}
+
+.textabout{
+	width: 25vw;
+	font-size: 1.1em;
+}
+
+.headshotimg{
+	height: 67vh;
+}
+
+@media only screen and (max-width: 640px){
+	body{
+		overflow-x: hidden;
+	}
+	.rowsabout{
+		flex-direction: column;
+	}
+	.textabout{
+		width: 90vw;
+		padding: 4vw;
+		font-size: 1em;
+	}
+	.headshotimg{
+		height: 30%;
+	}
+	.centertext{
+		text-align: center;
+	}
+	.topNav{
+		width: 98vw;
+		font-size: 1em;
+		text-align: center;
+	}
+	.topNav a{
+		font-size: 0.8em;
+	}
+	.resumebody{
+		width: 99vw;
+	}
+	.col2{
+		flex-direction: column;
+	}
+	.gifsize{
+		width: 70vw;
+	}
+	.titlescode{
+		font-size: 1.2em;
+	}
+	.secondcontainer{
+		width: 97vw;
+		height: inherit;
+
+	}
+	.gifsizearcade{
+		width:60vw;
+	}
+	.thirdcontainer{
+		width: 97vw;
+		height: inherit;
+	}
+	.gifsizephone{
+		width: 60vw;
+	}
+	.hideme{
+		opacity: 100;
+	}
+	.threeimg{
+		height:13vh;
+		width: inherit;
+	}
+	.scroller{
+		width: 97vw;
+	}
+	
+
+
+}

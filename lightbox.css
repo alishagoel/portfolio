@@ -200,3 +200,24 @@ body.lb-disable-scrolling {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
+
+@media only screen and (max-width: 640px){
+  .lightbox {
+    visibility: hidden;
+  }
+  .lightboxOverlay{
+    visibility: hidden;
+    width: 0px;
+    display: none;
+    height: 0px;
+  }
+  .lb-outerContainer{
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+  .lb-outerContainer:after{
+    display: none;
+    visibility: hidden;
+  }
+}
