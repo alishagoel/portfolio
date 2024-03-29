@@ -21,6 +21,10 @@ img{
 	width: 27vw;
 	height: inherit;
 }
+.threeimg2{
+	width: 27vw;
+	height: inherit;
+}
 
 .twoimg{
 	width: 37vw;
@@ -284,16 +288,15 @@ a{
 	.hideme{
 		opacity: 100;
 	}
-	.threeimg{
-		height:13vh;
-		width: inherit;
-	}
+	
 	.scroller{
 		width: 97vw;
 	}
-	.col{
-		width: 99vw;
-	}
+	.threeimg2{
+	width: inherit;
+	height: 13vh;
+}
+
 	
 
 
