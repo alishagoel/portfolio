@@ -44,8 +44,15 @@ img {
 	height: 42vmin;
 }
 
+#sidethiner{
+	height: 43vmin;
+}
+
 #verticalthin{
 	height: 67.5vmin;
+}
+#verticalthiner{
+	height: 74.5vmin;
 }
 
 #square{
@@ -54,6 +61,10 @@ img {
 
 #three{
 	height: 44vmin;
+}
+
+#three2{
+	height: 49vmin;
 }
 
 .sidenav{
